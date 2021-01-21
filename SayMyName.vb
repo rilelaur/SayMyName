@@ -2,12 +2,12 @@
 'RCET0265
 'Spring 2021
 'Say My Name
-'
+'https://github.com/rilelaur/SayMyName.git
 
 Option Strict On
 Option Explicit On
 
-'The program greats the user and gives instructions
+'The program greets the user and gives instructions
 'has the user input their name and responds using their name
 Module SayMyName
     
