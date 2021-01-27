@@ -18,7 +18,13 @@ Module SayMyName
 
         userInput = Console.ReadLine()
 
-        Console.WriteLine(vbCrLf & $"Hello {userInput}!")
+        If userInput = "Emily" Or userInput = "Joe" Then
+            Console.WriteLine(vbCrLf & $"Hello {userInput}")
+        ElseIf userInput = "Laura" Then
+            Console.WriteLine(vbCrLf & $"Did you ever hear the tragedy of Darth Plagueis The Wise?")
+        Else
+            Console.WriteLine(vbCrLf & "You aren't authorized to read these files.")
+        End If
 
         Console.ReadLine()
     End Sub
