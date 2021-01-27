@@ -23,12 +23,12 @@ Module SayMyNameAgain
         'The program will respond with Emily or Joe if that is entered by the user
         If userInput = "Emily" Or userInput = "Joe" Then
             Console.WriteLine(vbCrLf & $"Hello {userInput}")
-            'If Laura is entered then it will ask the user the about Darth Plagueis The Wise
+        'If Laura is entered then it will ask the user the about Darth Plagueis The Wise
         ElseIf userInput = "Laura" Then
             Console.WriteLine(vbCrLf & $"Did you ever hear the tragedy of Darth Plagueis The Wise?")
-            'If Anything else is entered the program will respond saying they aren't authorized
+        'If Anything else is entered the program will respond saying hello
         Else
-            Console.WriteLine(vbCrLf & "You aren't authorized to read these files.")
+            Console.WriteLine(vbCrLf & "Hello")
         End If
 
         Console.ReadLine()
